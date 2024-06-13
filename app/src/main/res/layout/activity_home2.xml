@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Red Banner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Loja do Leão"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <!-- GridLayout for Products -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_marginTop="20dp">
+
+            <!-- First Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="Camisa Retro 93"
+                    android:src="@drawable/camisa_retro_vitoria_ba_1993_17_1_562d176a7b59df9ba3682b603131c1f2"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa Retrô 1993 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 399,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Second Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="Camisa Retro 1999"
+                    android:src="@drawable/camisa_vitoria_retro_1999_435_1_20200806182441"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa Retrô 1999 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 349,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Third Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="Camisa Retro 1997"
+                    android:src="@drawable/camisa_retro_vitoria_ba_1997_amarela_1449_1_57782d9580622d402262e18a5de14746"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa Retrô 1997 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 499,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Fourth Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="Camisa Raizes 2013"
+                    android:src="@drawable/raizvitoria_penalty_190720130092"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa Raizes 2013 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 799,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Fifth Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="camisa Vitoria 2024"
+                    android:src="@drawable/camisavit24"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa 2024 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 249,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Sixth Product -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="Camisa 2023"
+                    android:src="@drawable/camisavit23"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Camisa 2023 Vitória"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 199,90"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

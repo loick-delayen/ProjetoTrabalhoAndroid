@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "227629227763",
+    "project_id": "projetotrabalho-afa92",
+    "storage_bucket": "projetotrabalho-afa92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227629227763:android:96561902e6e45c85e7e186",
+        "android_client_info": {
+          "package_name": "com.example.projetotrabalho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUsvT1wL2an0Zllz4n9wPyvPcbxR1DME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227629227763:android:4938d33b15c7f5c3e7e186",
+        "android_client_info": {
+          "package_name": "con.example.projetotrabalho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUsvT1wL2an0Zllz4n9wPyvPcbxR1DME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
